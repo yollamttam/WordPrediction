@@ -25,7 +25,7 @@ story = ""
 for i in range(0,numWords):
     
     prediction = np.asarray(ann.run(recentWordProb))
-    prediction -= np.min(prediction)
+    #prediction -= np.min(prediction)
     prediction /= np.sum(prediction)
     
     randomNumber = np.random.rand()
