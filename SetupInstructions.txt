@@ -1,0 +1,16 @@
+Instructions for Setting Up FANN
+
+1. Install FANN, cloned git repository 
+
+sudo apt-get install swig
+git clone https://github.com/libfann/fann.git
+cd ./fann
+(sudo apt-get install cmake)
+cmake .
+sudo make install
+
+2. Install FANN2 binding to Python
+
+sudo easy_install fann2
+sudo ldconfig
+
